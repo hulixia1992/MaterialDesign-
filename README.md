@@ -55,3 +55,19 @@ app:mrl_ripplePersistent="true"           // if true, ripple background color pe
 
 </com.balysv.materialripple.MaterialRippleLayout>
 ```
+### 3 ProgressWheel
+#### 作者 Nicola��s Hormaza��bal
+#### [源码地址](https://github.com/pnikosis/materialish-progress)
+一个进度加载控件。
+![](https://github.com/pnikosis/materialish-progress/raw/master/spinningwheel.gif)
+
+```
+<com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/progress_wheel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        wheel:matProg_barColor="#5588FF"
+        wheel:matProg_progressIndeterminate="true" />
+```
